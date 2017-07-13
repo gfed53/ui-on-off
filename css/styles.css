@@ -1,0 +1,27 @@
+* {
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  margin: 0;
+  padding: 0; }
+
+*:before, *:after {
+  -webkit-box-sizing: inherit;
+          box-sizing: inherit; }
+
+body {
+  background: #f7f7f7; }
+
+.grid {
+  text-align: center;
+  margin-top: 5em; }
+
+img {
+  width: 100px;
+  -webkit-filter: grayscale(50%);
+          filter: grayscale(50%);
+  -webkit-transition: 250ms ease-in-out all;
+  transition: 250ms ease-in-out all; }
+
+img:hover {
+  -webkit-filter: grayscale(0%);
+          filter: grayscale(0%); }
