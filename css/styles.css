@@ -48,8 +48,8 @@ body {
   width: 100px;
   -webkit-filter: grayscale(50%) brightness(80%);
           filter: grayscale(50%) brightness(80%);
-  -webkit-transition: 75ms 250ms ease-in-out all;
-  transition: 75ms 250ms ease-in-out all; }
+  -webkit-transition: 100ms ease-in-out all;
+  transition: 100ms ease-in-out all; }
 
 #bulb.triggered {
   -webkit-filter: grayscale(0%) brightness(100%);
