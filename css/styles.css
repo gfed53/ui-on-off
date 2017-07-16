@@ -48,8 +48,8 @@ body {
   width: 100px;
   -webkit-filter: grayscale(50%) brightness(80%);
           filter: grayscale(50%) brightness(80%);
-  -webkit-transition: 50ms ease-in-out all;
-  transition: 50ms ease-in-out all; }
+  -webkit-transition: 75ms 250ms ease-in-out all;
+  transition: 75ms 250ms ease-in-out all; }
 
 #bulb.triggered {
   -webkit-filter: grayscale(0%) brightness(100%);
@@ -65,3 +65,21 @@ body {
 #handle.clicked {
   -webkit-animation: handle 1s;
           animation: handle 1s; }
+
+#inner-text-container {
+  display: inline-block;
+  z-index: 1;
+  color: grey;
+  font-size: 2em;
+  bottom: 40px;
+  right: 77px; }
+  #inner-text-container .inner-text {
+    position: absolute;
+    right: -52px;
+    bottom: -11px; }
+  #inner-text-container .inner-text-off {
+    display: inline;
+    left: -8px; }
+  #inner-text-container .inner-text-on {
+    display: none;
+    left: -9px; }

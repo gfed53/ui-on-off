@@ -1,7 +1,7 @@
 #bulb
 	width: 100px
 	filter: grayscale(50%) brightness(80%)
-	transition: 50ms ease-in-out all 
+	transition: 75ms 250ms ease-in-out all 
 
 
 #bulb.triggered
@@ -16,11 +16,27 @@
 	top: 40px
 
 #handle.clicked
-	//Test
-	// transform: translateY(15px)
 
 	//Real thing
 	animation: handle 1s
 	
 
+//Inner Text
+#inner-text-container
+	display: inline-block
+	z-index: 1
+	color: grey
+	font-size: 2em
+	bottom: 40px
+	right: 77px
+	.inner-text
+		position: absolute
+		right: -52px
+		bottom: -11px
+	.inner-text-off
+		display: inline
+		left: -8px
+	.inner-text-on
+		display: none
+		left: -9px
 

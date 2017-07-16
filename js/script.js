@@ -12,5 +12,9 @@ $(function(){
 		}, 500);
 		
 		$('#bulb').toggleClass('triggered');
+
+		$('.inner-text-on').toggle();
+		$('.inner-text-off').toggle();
+		// $('.inner-text').html() === 'OFF' ? $('.inner-text').html('ON') : $('.inner-text').html('OFF');
 	});
 });
