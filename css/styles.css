@@ -59,8 +59,12 @@ body {
   -webkit-transition: 200ms ease-in-out all;
   transition: 200ms ease-in-out all;
   width: 18px;
-  right: 22px;
-  top: 40px; }
+  top: 32px; }
+
+#lampshade {
+  width: 200px;
+  bottom: 46px;
+  right: 151px; }
 
 #handle.clicked {
   -webkit-animation: handle 1s;
