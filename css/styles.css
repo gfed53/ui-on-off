@@ -52,8 +52,8 @@ body {
   transition: 100ms ease-in-out all; }
 
 #bulb.triggered {
-  -webkit-filter: grayscale(0%) brightness(100%);
-          filter: grayscale(0%) brightness(100%); }
+  -webkit-filter: grayscale(0%) brightness(100%) drop-shadow(0 0 5px yellow);
+          filter: grayscale(0%) brightness(100%) drop-shadow(0 0 5px yellow); }
 
 #handle {
   -webkit-transition: 200ms ease-in-out all;
@@ -64,7 +64,7 @@ body {
 #lampshade {
   width: 200px;
   bottom: 46px;
-  right: 151px; }
+  right: 152px; }
 
 #handle.clicked {
   -webkit-animation: handle 1s;
