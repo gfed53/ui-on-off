@@ -10,7 +10,10 @@
           box-sizing: inherit; }
 
 body {
-  background: #f7f7f7; }
+  background: #191919; }
+
+.luminate {
+  background: #4a4949; }
 
 .grid {
   text-align: center;
@@ -46,8 +49,8 @@ body {
 
 #bulb {
   width: 100px;
-  -webkit-filter: grayscale(50%) brightness(80%);
-          filter: grayscale(50%) brightness(80%);
+  -webkit-filter: grayscale(50%) brightness(75%);
+          filter: grayscale(50%) brightness(75%);
   -webkit-transition: 100ms ease-in-out all;
   transition: 100ms ease-in-out all; }
 

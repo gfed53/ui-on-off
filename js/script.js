@@ -12,6 +12,9 @@ $(function(){
 			$('#bulb').toggleClass('triggered');
 			$('.inner-text-on').toggle();
 			$('.inner-text-off').toggle();
+
+			//Light up room
+			$('body').toggleClass('luminate');
 		}, 250);
 
 		setTimeout(()=> {
